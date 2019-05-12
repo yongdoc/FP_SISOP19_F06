@@ -10,7 +10,7 @@
 #include <pthread.h>
 #include <time.h>
 
-const char * path="/home/yong/Documents/buat_crontab.txt";
+const char * path="/home/yong/Documents/crontab.data";
 
 struct tipecron{
     int crtime[5];
