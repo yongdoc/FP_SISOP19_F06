@@ -27,7 +27,7 @@ void getTime(int l, char cron[])
     int t=0,c=0;
     crontab[l].line=l;
     while(1){
-        if(t==5) break;
+        if(t==5) {crontab[l].exc=1;break;}
         if(cron[c]==' '){
             c++;
         }else if(cron[c]=='*'){
